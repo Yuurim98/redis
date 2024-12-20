@@ -4,7 +4,7 @@ import java.util.HashMap;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
-public class hash {
+public class Hash {
 
     public static void main(String[] args) {
         try (var jedisPool = new JedisPool("127.0.0.1", 6379)) {
